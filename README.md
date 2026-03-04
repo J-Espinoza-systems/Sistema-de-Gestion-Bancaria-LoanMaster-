@@ -6,14 +6,14 @@
 
 ##  Funcionalidades Principales
 
-** Identificación de Clientes:** Soporte dinámico para Personas Naturales (DNI) y Personas Jurídicas (RUC) mediante una jerarquía de clases heredada de la clase `Cliente`.
-** Control de Riesgo Crediticio:** Validación automática que impide el registro si el cliente ya posee 2 deudas activas, mitigando el riesgo de sobreendeudamiento.
-** Validación de Montos por Perfil:**
+* ** Identificación de Clientes:** Soporte dinámico para Personas Naturales (DNI) y Personas Jurídicas (RUC) mediante una jerarquía de clases heredada de la clase `Cliente`.
+* ** Control de Riesgo Crediticio:** Validación automática que impide el registro si el cliente ya posee 2 deudas activas, mitigando el riesgo de sobreendeudamiento.
+* ** Validación de Montos por Perfil:**
     * **Crédito Personal:** Rango desde S/ 500.00 hasta S/ 1,000,000.00.
     * **Crédito Empresarial:** Monto mínimo de S/ 5,000.00.
-** Resumen de Cartera:** Generación de reportes consolidados que calculan el Capital Total, Intereses por cobrar e Ingresos Mensuales proyectados.
-** Gestión de Estados:** Capacidad para anular (desactivar) o reactivar préstamos, actualizando los indicadores financieros en tiempo real.
-** Resiliencia del Sistema:** Implementación de bloques `try-catch` para asegurar la estabilidad ante entradas de datos inválidas.
+* ** Resumen de Cartera:** Generación de reportes consolidados que calculan el Capital Total, Intereses por cobrar e Ingresos Mensuales proyectados.
+* ** Gestión de Estados:** Capacidad para anular (desactivar) o reactivar préstamos, actualizando los indicadores financieros en tiempo real.
+* ** Resiliencia del Sistema:** Implementación de bloques `try-catch` para asegurar la estabilidad ante entradas de datos inválidas.
 
 ---
 
